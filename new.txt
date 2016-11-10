@@ -1,0 +1,3 @@
+curl -v -X POST -D headers -H "Content-Type: application/xml" -d @new-patient.xml http://ec2-54-86-143-111.compute1.amazonaws.com:8080/ClinicRestWebService/resources/patient
+
+curl -X GET headers -D http://54.86.143.111/ClinicRestWebService/resources/patient/site
